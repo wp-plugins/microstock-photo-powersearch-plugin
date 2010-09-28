@@ -29,7 +29,7 @@ Please review with your feedback, and let me know about any problems or if you h
 
 == Installation ==
 
-1. Upload the `microstock-power` folder and it's contents to the `/wp-content/plugins/` directory
+1. Upload the `microstock-power` folder (create if not exists) and it's contents to the `/wp-content/plugins/` directory
 
 2. Activate the plugin through the 'Plugins' menu in WordPress
 
