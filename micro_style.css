@@ -1,0 +1,190 @@
+#mpsstats
+{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	overflow: hidden;
+}
+#MicroTools {
+	width: 100%;
+}
+#MicroSearch {
+	float:right;
+}
+#MicroSearchText {
+}
+#MicroSearchButton {
+}
+#MicroImagePreview {
+	position: absolute;
+	z-index: 1000;
+	width: 100%;
+	display: none;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+#MicroMoreLink {
+	float: right;
+	margin-right: 10px;
+	cursor:pointer;
+	font-size: 9px;
+}
+#MicroMoreLink:hover {
+	text-decoration: underline;
+}
+#MicroMoreLinksBox {
+	display:none;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+#mpssearches {
+	font-size: 10px;
+	margin-bottom: 5px;
+}
+#mpssearches a {
+	cursor: pointer;
+}
+#MicroImagePreview_Info {
+	margin-top: 8px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	position: relative;
+	color: white;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+}
+#MicroStatusImage {
+	display: none;
+	text-align: left;
+	margin: 0px;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+#MicroStatusPanel {
+	text-align: left;
+	margin-left: 5px;
+}
+#MicroStatusMessage {
+	display: none;
+	font-size: 0.8em;
+	margin: 2px;
+}
+#MicroImagePreview_InfoDescription {
+	font-size: 0.8em;
+	margin: 10px;
+	margin-right: 2px;
+	float: left;
+	max-width: 50%;
+	text-align: left;
+}
+#MicroImagePreview_InfoDescription:hover {
+	cursor: pointer;
+}
+#MicroImagePreview_Image {
+	background-color: white;
+	margin: 3px;
+	padding: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	border: solid 1px #cccccc;
+}
+#MicroImagePreview_Image:hover {
+	cursor: pointer;
+	border: solid 1px #777777;
+}
+#MicroImageBuyInfoButton {
+	display: inline-block;
+	float: right;
+	clear: both;
+	margin: 10px;
+	width: 75px;
+	height: 47px;
+	cursor: pointer;
+}
+#MicroFacebookLikeFrame {
+	margin: 10px;
+	float: right;
+}
+
+.simpleButton {
+	border: 1px solid white;
+	cursor: pointer;
+	margin: 0px;
+	margin-left: 0px;
+	margin-right: 1px;
+	text-align: center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding-left: 0px;
+}
+.simpleButton:hover {
+	border: 1px solid #cccccc;
+}
+.simpleButton img {
+	margin-bottom: -2px;
+	margin-right: 2px;
+}
+
+#MicroResults {
+	width: 100%;
+	max-height: 550px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#MicroResults span {
+	display: none;
+}
+
+#MicroResults span a {
+	vertical-align: middle;
+}
+#MicroResults span img {
+	margin: 3px;
+	padding: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: solid 1px #cccccc;
+	max-height: 110px;
+	max-width: 110px;
+	vertical-align: middle;
+}
+#MicroResults span img:hover {
+	border: solid 1px #777777;
+}
+.MicroThumbContainer {
+	display: inline-block;
+	width: 120px;
+	height: 115px;
+	text-align: center;
+}
+
+.clear {
+	clear: both;
+}
+#MicroOptions {
+	display: block;
+	margin-top: 5px;
+	height: 20px;
+	font-size: 0.8em;
+	width: 100%;
+	background-color: #eeeeee;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: right;
+}
+#MicroOptions * {
+	vertical-align: middle;
+}
+#MicroLinksPanel {
+	float: right;
+}
+#MicroLinksPanel span:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+#MicroLinksPanel span {
+	padding-top: -3px;
+}
